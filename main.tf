@@ -1,5 +1,5 @@
 provider "aws" {
-    region = "eu-central-1"
+    region  = "eu-central-1"
     profile = "default"
 }
 
@@ -66,7 +66,7 @@ resource "aws_api_gateway_rest_api" "DynamoDBOperations" {
     name                         = "DynamoDBOperations"
     put_rest_api_mode            = "overwrite"
     endpoint_configuration {
-        types            = ["REGIONAL"]
+        types                    = ["REGIONAL"]
     }
 }
 
