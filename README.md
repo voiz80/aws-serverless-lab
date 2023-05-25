@@ -44,3 +44,7 @@ terraform init
 terraform plan
 terraform applay
 ```
+### Don't forget to destroy
+```
+terraform destroy
+```
