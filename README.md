@@ -42,7 +42,7 @@ To get all the inserted items from the table, we can use the "list" operation of
 ```
 terraform init
 terraform plan
-terraform applay
+terraform apply
 ```
 ### Don't forget to destroy
 ```
